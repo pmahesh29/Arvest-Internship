@@ -1,0 +1,68 @@
+    body {
+        background-color: #d9eaf5;
+        /* Light blue color */
+    }
+
+    table {
+        border-collapse: collapse;
+    }
+
+    td {
+
+        position: relative;
+        border: 1px solid rgb(14, 13, 13);
+    }
+
+
+    .button-container {
+        display: flex;
+        justify-content: flex-end;
+
+    }
+
+    .button-place {
+        display: flex;
+        justify-content: flex-start;
+
+    }
+
+
+    .hold-button {
+        font-size: 15px;
+        font-weight: bold;
+        background-color: rgb(255, 190, 11);
+        border: 0.1px solid rgb(14, 13, 13);
+    }
+
+    .new-button {
+        font-size: 15px;
+        font-weight: bold;
+        background-color: rgb(177, 196, 224);
+        border: 0.1px solid rgb(14, 13, 13);
+    }
+
+    .thin-border-button {
+        font-size: 15px;
+        font-weight: bold;
+        background-color: rgb(177, 196, 224);
+        border: 1px solid rgb(14, 13, 13);
+    }
+
+    .thin-border-button.thick-border {
+        border: 1px solid rgb(14, 13, 13);
+    }
+
+
+    .darkRow {
+        border: 1px solid rgba(65, 63, 63, 0.952);
+        background-color: rgba(138, 132, 132, 0.938);
+        padding: 1px;
+        position: relative;
+        top: 12px;
+        left: 3px;
+        color: blue;
+        font-family: arial;
+        font-size: 25px;
+        font-weight: "bold"
+
+    }
